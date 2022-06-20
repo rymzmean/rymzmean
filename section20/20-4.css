@@ -1,0 +1,10 @@
+section {
+    float: right;
+    width: 62.5%;
+    background-color: darksalmon;
+}
+
+section>img {
+    max-width: 100%;
+    height: auto;
+}

@@ -1,0 +1,321 @@
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0%;
+    align-items: center;
+    display: flex;
+    height: 71px;
+}
+.nav-wrapper {
+    display: flex;
+}
+
+.nav-wrapper ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav-wrapper a {
+    padding: 16px;
+    font-size: 14px;
+    color: blue;
+}
+
+.hero-inner {
+    background-image: url(../img/head-img.png);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-inner h5 {
+    text-align: center;
+    font-size: 36px;
+    line-height: 44px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.search {
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 30px;
+    height: 40px;
+}
+
+.intro {
+    text-align: center;
+    line-height: 1.5;
+}
+
+.intro h1 {
+    margin-top: 104px;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.intro h2 {
+    font-size: 22px;
+}
+
+.intro p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 75px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    box-shadow: 0px 9px 30px rgb(200 200 200 / 30%);
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+}
+
+.flex-item h2 {
+    font-size: 22px;
+    font-weight: 400;
+    color: #0015ff;
+    margin-top: 116px;
+}
+
+.flex-item hr {
+    height: 1px;
+    border: none;
+    background-color: #99aab5;
+    opacity: .5;
+    width: 50px;
+}
+
+.flex-item h3 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.notice {
+    background-image: url(/2-discord/img/notice.svg);
+    background-repeat: no-repeat;
+    background-size: 106px;
+    background-position: center 14px;
+    width: 240px;
+    height: 260px;
+}
+
+.messenger {
+    background-image: url(/2-discord/img/messenger.svg);
+    background-repeat: no-repeat;
+    background-size: 106px;
+    background-position: center 14px;
+    width: 240px;
+    height: 260px;
+}
+
+.settings {
+    background-image: url(/2-discord/img/setting.svg);
+    background-repeat: no-repeat;
+    background-size: 106px;
+    background-position: center 14px;
+    width: 240px;
+    height: 260px;
+}
+
+.text-chat {
+    background-image: url(/2-discord/img/imogi.svg);
+    background-repeat: no-repeat;
+    background-size: 106px;
+    background-position: center 14px;
+    width: 240px;
+    height: 260px;
+}
+
+.server-setup {
+    background-image: url(/2-discord/img/mixer.svg);
+    background-repeat: no-repeat;
+    background-size: 106px;
+    background-position: center 14px;
+    width: 240px;
+    height: 260px;
+}
+
+.programs {
+    background-image: url(/2-discord/img/program.svg);
+    background-repeat: no-repeat;
+    background-size: 106px;
+    background-position: center 14px;
+    width: 240px;
+    height: 260px;
+}
+
+.store {
+    background-image: url(/2-discord/img/market.svg);
+    background-repeat: no-repeat;
+    background-size: 106px;
+    background-position: center 14px;
+    width: 240px;
+    height: 260px;
+}
+
+.bills {
+    background-image: url(/2-discord/img/Bills.svg);
+    background-repeat: no-repeat;
+    background-size: 106px;
+    background-position: center 14px;
+    width: 240px;
+    height: 260px;
+}
+
+.safety {
+    background-image: url(/2-discord/img/shield.svg);
+    background-repeat: no-repeat;
+    background-size: 106px;
+    background-position: center 14px;
+    width: 240px;
+    height: 260px;
+}
+
+.faq {
+    background-image: url(/2-discord/img/find.svg);
+    background-repeat: no-repeat;
+    background-size: 106px;
+    background-position: center 14px;
+    width: 240px;
+    height: 260px;
+}
+
+.chet {
+    background-image: url(/2-discord/img/discord-chet.svg);
+    background-repeat: no-repeat;
+    background-size: 106px;
+    background-position: center 14px;
+    background-color: #f2f2f2;
+    width: 240px;
+    height: 260px;
+}
+
+.twitter {
+    background-image: url(/2-discord/img/twitter.svg);
+    background-repeat: no-repeat;
+    background-size: 106px;
+    background-position: center 14px;
+    background-color: #f2f2f2;
+    width: 240px;
+    height: 260px;
+}
+
+#end {
+    background-color: #23272A;
+    background-size: 235px 185px;
+    overflow: hidden;
+    margin-top: 70px;
+    width: 100%;
+}
+
+.content {
+    text-align: center;
+    max-width: 1100px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.button {
+    background-color: #3BA55C;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 25px;
+    color: #fff;
+    margin: 50px 0;
+    width: 250px;
+    height: 42px;
+    border: 0;
+}
+
+.apps {
+    width: 814px;
+    height: 145px;
+    background-image: url(/2-discord/img/footer-img.png);
+    background-size: 814px 145px;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.apps-icon {
+    background-image: url(/2-discord/img/circle.svg);
+    position: absolute;
+    top: 61px;
+    opacity: 0.5;
+    width: 174px;
+    height: 50px;
+    left: 87px;
+}
+
+.android {
+    background-image: url(/2-discord/img/robot.svg);
+    position: absolute;
+    top: 61px;
+    opacity: 0.5;
+    width: 174px;
+    height: 50px;
+    left: 378px;
+    background-repeat: no-repeat;
+}
+
+.apple {
+    background-image: url(/2-discord/img/apple.svg);
+    position: absolute;
+    top: 61px;
+    opacity: 0.5;
+    width: 174px;
+    height: 50px;
+    left: 472px;
+    background-repeat: no-repeat;
+}
+
+.window {
+    background-image: url(/2-discord/img/window.svg);
+    position: absolute;
+    top: 61px;
+    opacity: 0.5;
+    width: 174px;
+    height: 50px;
+    left: 622px;
+    background-repeat: no-repeat;
+}
+
+.none {
+    background-image: url(/2-discord/img/x.svg);
+    position: absolute;
+    top: 61px;
+    opacity: 0.5;
+    width: 174px;
+    height: 50px;
+    left: 694px;
+    background-repeat: no-repeat;
+}
+
+.nav {
+    border-top: 1px solid rgba(219,221,225,.1);
+    padding: 0 30px 50px;
+    display: flex;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: row;
+    height: 75px;
+    margin-top: -20px;
+}

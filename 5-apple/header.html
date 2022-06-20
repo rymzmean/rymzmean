@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ipad - Apple</title>
+    <link rel="stylesheet" href="css/apple.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        ul {
+            display: flex;
+            height: 48px;
+            max-width: 1024px;
+            /* width: 100 */
+            justify-content: space-between;
+            align-items: ceter;
+            margin: 0 auto;
+            padding: 0 16px;
+        }
+
+        header {
+            /* width: 100%
+            기본값이라 안써도 적용된다! */
+            background-color: rgba(0, 0, 0, 0);
+            color: #ebebeb;
+            overflow: hidden;
+        }
+
+        .pc-hide {
+            display: none;
+        }
+
+        .res-image {
+            width: 1199px;
+            height: 429px;
+            background-image: url();
+        }
+
+        @media screen and (max-width: 1200px) {
+            .res-image {
+                width: 980px;
+                height: 358px;
+                background-image: url();
+            }
+        }
+
+        @media screen and (max-width: 880px) {
+            .pc-hide {
+                display: block;
+            }
+
+            .mobie-hide {
+                display: none;
+            }
+
+            .res-image {
+                width: 602px;
+                height: 277px;
+                background-image: url();
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <ul>
+            <li class="pc-hide">=</li>
+            <li>로고</li>
+            <li class="mobile-hide">1</li>
+            <li class="mobile-hide">2</li>
+            <li class="mobile-hide">3</li>
+            <li class="mobile-hide">4</li>
+            <li class="mobile-hide">5</li>
+            <li class="mobile-hide">6</li>
+            <li class="mobile-hide">8</li>
+            <li class="mobile-hide">9</li>
+            <li class="mobile-hide">10</li>
+            <li class="mobile-hide">11</li>
+            <li class="mobile-hide">12</li>
+        </ul>
+
+        <figure class="res-image"></figure>
+    </header>
+</body>
+</html>
