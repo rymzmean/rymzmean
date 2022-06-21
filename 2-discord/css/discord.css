@@ -34,34 +34,50 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+    position: relative;
 }
 
 .hero-inner h5 {
     text-align: center;
     font-size: 36px;
-    line-height: 44px;
+    line-height: 90px;
     color: #ffffff;
     font-weight: 700;
 }
 
-.search {
-    position: relative;
-    box-sizing: border-box;
-    border-radius: 30px;
-    height: 60px;
+.search-container {
     width: 100%;
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 8px 16px;
+    border-radius: 17px;
+    border: 1px solid black;
 }
 
 .search-iconb {
     position: relative;
-    top: 40%;
-    transform: translateY(-50%);
+    top: 27%;
+    transform: translateY(-20%);
     position: absolute;
-    left: 200px;
+    left: 457px;
     z-index: 1;
     width: 18px;
     height: 18px;
     color: #777;
+}
+
+#query {
+    width: 40%;
+    height: 35px;
+    border-radius: 60px;
+    padding-left: 40px;
+    border: none;
+    position: relative;
+    box-sizing: border-box;
 }
 
 .intro {
@@ -77,6 +93,8 @@
 
 .intro h2 {
     font-size: 22px;
+    margin: 20px;
+    
 }
 
 .intro p {
@@ -90,6 +108,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin: 100
 }
 
 .flex-item {
@@ -103,7 +122,8 @@
     font-size: 22px;
     font-weight: 400;
     color: #0015ff;
-    margin-top: 116px;
+    margin-top: 130px;
+    margin-bottom: 20px;
 }
 
 .flex-item hr {
@@ -117,6 +137,8 @@
 .flex-item h3 {
     font-size: 14px;
     font-weight: 400;
+    margin: 13px;
+    line-height: 20px;
 }
 
 .notice {
@@ -326,17 +348,23 @@
     padding: 0 120px 150px;
     display: flex;
     margin: 0 auto;
+    max-width: 1100px;
+    margin-bottom: 20px;
 }
 
 .footer-logo {
     display: flex;
     flex-direction: row;
-    height: 75px;
     margin-top: 20px;
+    max-width: 1000px;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .links {
     display: flex;
+    max-width: 500px;
+    width: 100%;
 }
 
 .links-col {
