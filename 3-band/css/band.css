@@ -40,6 +40,8 @@
     background-color: #f6f8fa;
     display: flex;
     justify-content: center;
+    width: 1000px;
+    margin: 0 auto;
 }
 
 .image-section {
@@ -121,6 +123,11 @@
     margin-left: 10px;
 }
 
+#banner {
+    width: 1000px;
+    margin: 0 auto;
+}
+
 .banner-section {
     display: flex;
     height: 540px;
@@ -145,22 +152,29 @@
 }
 
 .band-list {
-    padding: 50px;
+    text-align: center;
+    display: flex;
+    padding: 40px 0;
+    justify-content: space-between;
+}
+
+.band-img > img {
+    width: 100%;
 }
 
 .band-item {
-    display: inline-block;
-    width: 600px;
+    width: 300px;
     text-align: left;
 }
 
 .band-img {
     width: 100%;
+    vertical-align: top;
 }
 
 /* 사이즈 조절? 정렬? */
 
-.band-explain {
+.all-explain {
     margin-top: 16px;
 }
 
@@ -174,4 +188,17 @@
     color: #444;
     margin-top: 6px;
     line-height: 1.6;
+}
+
+/* 글자 변경 */
+
+.how-inner {
+    background-color: #eef0f3;
+    display: block;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.how-title {
+    margin-top: 46px;
 }
