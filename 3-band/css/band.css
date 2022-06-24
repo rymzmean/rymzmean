@@ -175,10 +175,12 @@
 /* 사이즈 조절? 정렬? */
 
 .all-explain {
+    overflow-wrap: normal;
+    word-break: break-word;
     margin-top: 16px;
 }
 
-.band-tilte {
+.band-title {
     font-size: 24px;
     color: #222;
 }
@@ -190,15 +192,94 @@
     line-height: 1.6;
 }
 
-/* 글자 변경 */
+#how-band {
+    background: #eef0f3;
+}
 
 .how-inner {
-    background-color: #eef0f3;
-    display: block;
     width: 1000px;
     margin: 0 auto;
 }
 
 .how-title {
     margin-top: 46px;
+}
+
+.how-list {
+    margin: 25px 0 24px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.banduri {
+    display: flex;
+    align-items: center;
+}
+
+.cover {
+    position: relative;
+    margin-right: 12px;
+}
+
+.cover-img {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+}
+
+.cover-inner {
+    width: 93px;
+    height: 93px;
+}
+
+.bandname {
+    min-width: 0;
+}
+
+.name-title {
+    text-decoration: none;
+    padding-top: 3px;
+    line-height: 1.4;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #222;
+}
+
+.sub-text {
+    overflow: hidden;
+    white-space: nowrap;
+    margin-top: 5px;
+    font-size: 13px;
+    text-overflow: ellipsis;
+}
+
+.member {
+    margin-top: 4px;
+    line-height: 1.5;
+    font-size: 12px;
+}
+
+.meber-text {
+    font-weight: 400
+}
+
+.more-link {
+    display: inline-block;
+    margin-top: 7px;
+    height: 26px;
+    padding: 0 10px 0 9px;
+    background: #fff;
+    border: 1px solid #e1e1e1;
+    border-radius: 100px;
+    line-height: 23px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #777;
+    text-decoration: none;
+}
+
+.more-link > strong {
+    color: #333;
+    font-weight: bolder;
 }
