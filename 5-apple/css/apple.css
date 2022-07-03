@@ -1,60 +1,29 @@
 .menu-box {
-    background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
 }
 
-.menu-box li {
-    list-style: none;
-}
-
-.menu-box ul {
-    display: flex;
-    height: 48px;
-    max-width: 1024px;
-    /* width: 100 */
-    justify-content: space-between;
-    align-items: ceter;
-    margin: 0 auto;
-    padding: 0 16px;
-}
-
-.menu-box header {
-    /* width: 100%
-    기본값이라 안써도 적용된다! */
-    background-color: rgba(0, 0, 0, 0);
-    color: #ebebeb;
-    overflow: hidden;
-}
-
-.pc-hide {
-    display: none;
-}
-
-.res-image {
-    width: 1199px;
-    height: 429px;
-    background-image: url();
-}
-
-@media screen and (max-width: 1200px) {
-    .res-image {
-        width: 980px;
-        height: 358px;
-        background-image: url();
-    }
+.menu-list {
+  display: flex;
+  height: 48px;
+  max-width: 1024px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 16px;
 }
 
 @media screen and (max-width: 880px) {
-    .pc-hide {
-        display: block;
-    }
+  .pc-hide {
+    display: block;
+  }
 
-    .mobie-hide {
-        display: none;
-    }
+  .mobie-hide {
+    display: none;
+  }
 
-    .res-image {
-        width: 602px;
-        height: 277px;
-        background-image: url();
-    }
+  .res-image {
+    width: 602px;
+    height: 277px;
+    background-image: url();
+  }
 }

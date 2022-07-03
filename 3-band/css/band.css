@@ -6,6 +6,19 @@
   background-color: #f6f8fa;
 }
 
+.link {
+  width: 78px;
+  height: 29px;
+  overflow: hidden;
+  display: inline-block;
+  background-repeat: no-repeat;
+  text-indent: -999px;
+  background-image: url(../img/spr_intro.png);
+  background-position: 0 -98px;
+  vertical-align: top;
+  margin: 17px 0 0 17px;
+}
+
 .menu {
   position: absolute;
   right: 30px;
@@ -300,7 +313,104 @@
 .icon-band {
   width: 70px;
   height: 70px;
+  overflow: hidden;
+  display: inline-block;
   background-repeat: no-repeat;
+  text-indent: -999px;
   background-image: url(../img/spr_intro.png);
   background-position: -162px 0;
+  margin-right: 20px;
+}
+
+.icon-explain {
+  display: inline-block;
+  overflow: hidden;
+  padding: 10px 0px 10px;
+  font-size: 23px;
+  color: #222;
+}
+
+.subtext {
+  font-size: 14px;
+  font-weight: 400;
+  color: #666;
+  display: block;
+}
+
+.app-down {
+  position: absolute;
+  right: 0;
+  top: 20%;
+}
+
+.applink-google {
+  vertical-align: top;
+  width: 160px;
+  height: 47px;
+  overflow: hidden;
+  display: inline-block;
+  background-repeat: no-repeat;
+  text-indent: -999px;
+  background-image: url(../img/spr_intro.png);
+  background-position: 0 0;
+}
+
+.applink-apple {
+  vertical-align: top;
+  width: 160px;
+  height: 47px;
+  overflow: hidden;
+  display: inline-block;
+  background-repeat: no-repeat;
+  text-indent: -999px;
+  background-image: url(../img/spr_intro.png);
+  background-position: 0 -49px;
+}
+
+.footer {
+  min-width: 1000px;
+  min-height: 120px;
+  background-color: #2a3038;
+}
+
+.footer-inner {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.footer-menu {
+  padding: 23px;
+}
+
+.menu-item {
+  font-size: 13px;
+  font-weight: 400;
+  color: #777;
+  display: inline-block;
+  vertical-align: top;
+  text-decoration: none;
+}
+
+.menu-item > strong {
+  color: #b3b3b3;
+  font-weight: bolder;
+}
+
+.menu-item::after {
+  display: inline-block;
+  width: 2px;
+  height: 2px;
+  margin: 8px 5px 0 10px;
+  border-radius: 50%;
+  background-color: #d8d8d8;
+  vertical-align: top;
+  opacity: 0.46;
+  content: "";
+}
+
+.copyright {
+  font-size: 13px;
+  font-weight: 500;
+  color: #b3b3b3;
+  margin-top: 5px;
 }
